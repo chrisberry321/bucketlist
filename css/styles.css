@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header {
+    height:100px;
+    width:100%;
+    margin:0px auto;
+    text-align: left;
+    color: white;
+    font-style: impact;
+    font-size: 150%;
+}
+
+.header p {
+  float: left;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-family: tahoma;
+}
+
+.signIn {
+  border: 3px solid white;
+}
+
+.signUp {
+  border: 3px solid #FFD431;
+  background-color: #FFD431;
+  color: black;
+  margin-left: 13px;
+}
+p.icon {
+  float:right;
+  font-size: 100px;
+  margin: 0px;
+  color: #FCFA9B;
+}
+
+.body {
+  text-align: center;
+  margin-top: 16%;
+  color: white;
+  font-size: 150%;
+  font-style: italic;
+}
+
+#icon {
+  font-size: 300px;
+  color: #FFD431;
+}
+.buttons {
+  display: inline;
+}
+
+.button {
+  font-size: 90%;
+  border: 1px solid black;
+  display: inline;
+  margin-right: 5px;
+  color: black;
+  padding: 12px;
+  background: white;
+  opacity: .54;
+
+}
+
+.button {
+
+}
+
+.facebook {
+  font-size: 90%;
+  display: inline;
+  margin-left: 5px;
+  padding: 12px;
+  border: 1px solid blue;
+  background: blue;
+}
